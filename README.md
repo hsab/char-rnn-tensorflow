@@ -44,6 +44,8 @@ Inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn)
 
 ## Generated Examples
 
+Tained with `rnn_size=128` and `num_layer=2`
+
 ```python sample.py --save_dir=.\data\onaesthetics\save128_3\ --prime="Read me" --sample=2```
 
 Read men and he and on account of the "poet seem to present it by great notion of the interest of beauty and modern subject and consciousness is consequently distinctions in the expression of the latter life that we have we must have consequently the whole of a definite and the real and subject of such a conception of its life like kinds of its content is a conception that reality of every heart and visible to give the form in the most visible point of qualities of his Beautiful sense, and in other det
