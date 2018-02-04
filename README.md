@@ -1,4 +1,17 @@
+char-rnn-tensorflow
+===
+
 Fork of [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) trained on 28 essays and books sourced from [Project Gutenber](https://www.gutenberg.org/) pertaining to aesthetics, beauty, and arts. All books in txt format available in [data/onaesthetics/Orig](https://github.com/hsab/char-rnn-tensorflow/tree/master/data/onaesthetics/Orig) folder.
+
+[![Join the chat at https://gitter.im/char-rnn-tensorflow/Lobby](https://badges.gitter.im/char-rnn-tensorflow/Lobby.svg)](https://gitter.im/char-rnn-tensorflow/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Coverage Status](https://coveralls.io/repos/github/sherjilozair/char-rnn-tensorflow/badge.svg)](https://coveralls.io/github/sherjilozair/char-rnn-tensorflow)
+[![Build Status](https://travis-ci.org/sherjilozair/char-rnn-tensorflow.svg?branch=master)](https://travis-ci.org/sherjilozair/char-rnn-tensorflow)
+
+Multi-layer Recurrent Neural Networks (LSTM, RNN) for character-level language models in Python using Tensorflow.
+
+Inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
+
+## Books & Essays
 
 * Aesthetical Essays of Friedrich Schiller by Friedrich Schiller
 * Ancient Art and Ritual by Jane Ellen Harrison
@@ -29,20 +42,15 @@ Fork of [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflo
 * The Sense of Beauty Being the Outlines of Aesthetic Theory by George Santayana
 * Thoughts on Art and Life by da Vinci Leonardo
 
+## Generated Examples
 
-char-rnn-tensorflow
-===
+```python sample.py --save_dir=.\data\onaesthetics\save128_3\ --prime="Read me" --sample=2```
 
-[![Join the chat at https://gitter.im/char-rnn-tensorflow/Lobby](https://badges.gitter.im/char-rnn-tensorflow/Lobby.svg)](https://gitter.im/char-rnn-tensorflow/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Coverage Status](https://coveralls.io/repos/github/sherjilozair/char-rnn-tensorflow/badge.svg)](https://coveralls.io/github/sherjilozair/char-rnn-tensorflow)
-[![Build Status](https://travis-ci.org/sherjilozair/char-rnn-tensorflow.svg?branch=master)](https://travis-ci.org/sherjilozair/char-rnn-tensorflow)
+Read men and he and on account of the "poet seem to present it by great notion of the interest of beauty and modern subject and consciousness is consequently distinctions in the expression of the latter life that we have we must have consequently the whole of a definite and the real and subject of such a conception of its life like kinds of its content is a conception that reality of every heart and visible to give the form in the most visible point of qualities of his Beautiful sense, and in other det
 
-Multi-layer Recurrent Neural Networks (LSTM, RNN) for character-level language models in Python using Tensorflow.
+```python sample.py --save_dir=.\data\onaesthetics\save128_3\ --prime="Read me" --sample=1```
 
-Inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
-
-## Requirements
-- [Tensorflow 1.0](http://www.tensorflow.org)
+Read men and when a fine more than all our Ashernals, the opposite tashing you are not only to detect itself his generally, a depicting as second. Let us prederiness, as heiling here?   "O, cold that he art be even necessitation of a flashed it from its real world, that is that of their unfeticular than sound is great front which right things are unlimiterned sense; in spite to the Uté and his will, when we termed else on earth, which offer them Principle, is—the aesthetical judgement called with surpa
 
 ## Basic Usage
 To train with default parameters on the tinyshakespeare corpus, run `python train.py`. To access all the parameters use `python train.py --help`.
@@ -71,13 +79,6 @@ $ tensorboard --logdir=./logs/
 ```
 
 Then open a browser to [http://localhost:6006](http://localhost:6006) or the correct IP/Port specified.
-
-
-## Roadmap
-- [ ] Add explanatory comments
-- [ ] Expose more command-line arguments
-- [ ] Compare accuracy and performance with char-rnn
-- [ ] More Tensorboard instrumentation
 
 ## Contributing
 Please feel free to:
