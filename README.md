@@ -1,3 +1,35 @@
+Fork of [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) trained on 28 essays and books sourced from [Project Gutenber](https://www.gutenberg.org/) pertaining to aesthetics, beauty, and arts. All books in txt format available in [data/onaesthetics/Orig](https://github.com/hsab/char-rnn-tensorflow/tree/master/data/onaesthetics/Orig) folder.
+
+* Aesthetical Essays of Friedrich Schiller by Friedrich Schiller
+* Ancient Art and Ritual by Jane Ellen Harrison
+* Aristotle on the art of poetry by Aristotle
+* Homer and Classical Philology by Friedrich Wilhelm Nietzsche
+* Ion by Plato
+* Kant's Critique of Judgement by Immanuel Kant
+* Laughter An Essay on the Meaning of the Comic by Henri Bergson
+* Lectures on the true, the beautiful and the good by Victor Cousin
+* Literary and Philosophical Essays French, German and Italian by Immanuel Kant et al
+* Modern Painters, Volume 1 (of 5) by John Ruskin
+* Modern Painters, Volume 2 (of 5) by John Ruskin
+* Modern Painters, Volume 3 (of 5) by John Ruskin
+* Modern Painters, Volume 4 (of 5) by John Ruskin
+* Modern Painters, Volume 5 (of 5) by John Ruskin
+* On the Laws of Japanese Painting
+* The Birth of Tragedy by Friedrich Wilhelm Nietzsche
+* The Case Of Wagner, Nietzsche Contra Wagner, and Selected Aphorisms by Nietzsche
+* The Philosophy of Fine Art, volume 1
+* The Philosophy of Fine Art, volume 2
+* The Philosophy of Fine Art, volume 3
+* The Philosophy of Fine Art, volume 4
+* The Photoplay by Hugo Münsterberg
+* The Poetics of Aristotle by Aristotle
+* The Principles of Aesthetics by De Witt H Parker
+* The Psychology of Beauty by Ethel Puffer Howes
+* The Republic by Plato
+* The Sense of Beauty Being the Outlines of Aesthetic Theory by George Santayana
+* Thoughts on Art and Life by da Vinci Leonardo
+
+
 char-rnn-tensorflow
 ===
 
