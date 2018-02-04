@@ -1,3 +1,4 @@
+# python train.py --data_dir=.\data\onaesthetics\ --save_dir=.\data\onaesthetics\save150\ --rnn_size=150 --num_layers=2
 from __future__ import print_function
 import tensorflow as tf
 
@@ -19,7 +20,7 @@ def main():
                         help='directory to store checkpointed models')
     parser.add_argument('--log_dir', type=str, default='logs',
                         help='directory to store tensorboard logs')
-    parser.add_argument('--rnn_size', type=int, default=128,
+    parser.add_argument('--rnn_size', type=int, default=200,
                         help='size of RNN hidden state')
     parser.add_argument('--num_layers', type=int, default=2,
                         help='number of layers in the RNN')
