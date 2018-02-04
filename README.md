@@ -1,7 +1,7 @@
 char-rnn-tensorflow
 ===
 
-Fork of [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) trained on 28 essays and books sourced from [Project Gutenber](https://www.gutenberg.org/) pertaining to aesthetics, beauty, and arts. All books in txt format available in [data/onaesthetics/Orig](https://github.com/hsab/char-rnn-tensorflow/tree/master/data/onaesthetics/Orig) folder.
+Fork of [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) trained on 28 essays and books sourced from [Project Gutenberg](https://www.gutenberg.org/) pertaining to aesthetics, beauty, and arts. All books in txt format available in [data/onaesthetics/Orig](https://github.com/hsab/char-rnn-tensorflow/tree/master/data/onaesthetics/Orig) folder.
 
 [![Join the chat at https://gitter.im/char-rnn-tensorflow/Lobby](https://badges.gitter.im/char-rnn-tensorflow/Lobby.svg)](https://gitter.im/char-rnn-tensorflow/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Coverage Status](https://coveralls.io/repos/github/sherjilozair/char-rnn-tensorflow/badge.svg)](https://coveralls.io/github/sherjilozair/char-rnn-tensorflow)
